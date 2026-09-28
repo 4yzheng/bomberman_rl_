@@ -1,0 +1,1215 @@
+{
+  "summary": {
+    "candidate": "planner_agent",
+    "opponent": "rule_based_agent",
+    "scenario": "coin-heaven",
+    "rounds": 20,
+    "candidate_score": 16.35,
+    "opponent_score": 13.883333333333333,
+    "outright_win_rate": 0.4,
+    "tied_or_outright_win_rate": 0.5,
+    "survival_rate": 0.5,
+    "suicides": 7,
+    "mean_action_ms": 8.254857019461369,
+    "elapsed_seconds": 117.95423896610737
+  },
+  "rounds": [
+    {
+      "seed": 2000,
+      "scores": [
+        20,
+        11,
+        14,
+        15
+      ],
+      "survived": true,
+      "stats": [
+        {
+          "time": 3.5407962799072266,
+          "steps": 400,
+          "moves": 333,
+          "coins": 10,
+          "invalid": 12,
+          "bombs": 41,
+          "kills": 2,
+          "score": 20,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 0.34554171562194824,
+          "steps": 96,
+          "moves": 85,
+          "coins": 11,
+          "bombs": 8,
+          "invalid": 3,
+          "score": 11,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 2.3245768547058105,
+          "steps": 400,
+          "moves": 342,
+          "coins": 14,
+          "bombs": 30,
+          "invalid": 24,
+          "score": 14,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 0.8846375942230225,
+          "steps": 204,
+          "moves": 175,
+          "coins": 15,
+          "bombs": 18,
+          "invalid": 11,
+          "suicides": 1,
+          "score": 15,
+          "rounds": 1,
+          "kills": 0
+        }
+      ]
+    },
+    {
+      "seed": 2001,
+      "scores": [
+        9,
+        28,
+        12,
+        11
+      ],
+      "survived": false,
+      "stats": [
+        {
+          "time": 0.40532779693603516,
+          "steps": 67,
+          "moves": 57,
+          "coins": 9,
+          "invalid": 3,
+          "bombs": 3,
+          "score": 9,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 2.859762191772461,
+          "steps": 400,
+          "moves": 387,
+          "coins": 18,
+          "invalid": 4,
+          "bombs": 9,
+          "kills": 2,
+          "score": 28,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 3.024754047393799,
+          "steps": 400,
+          "moves": 386,
+          "coins": 12,
+          "bombs": 10,
+          "invalid": 4,
+          "score": 12,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 0.384716272354126,
+          "steps": 97,
+          "moves": 79,
+          "coins": 11,
+          "bombs": 7,
+          "invalid": 11,
+          "suicides": 1,
+          "score": 11,
+          "rounds": 1,
+          "kills": 0
+        }
+      ]
+    },
+    {
+      "seed": 2002,
+      "scores": [
+        12,
+        14,
+        8,
+        16
+      ],
+      "survived": false,
+      "stats": [
+        {
+          "time": 0.979229211807251,
+          "steps": 132,
+          "moves": 112,
+          "coins": 12,
+          "bombs": 10,
+          "invalid": 4,
+          "suicides": 1,
+          "score": 12,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 2.686636209487915,
+          "steps": 400,
+          "moves": 374,
+          "coins": 14,
+          "bombs": 16,
+          "invalid": 10,
+          "score": 14,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 0.4562380313873291,
+          "steps": 121,
+          "moves": 101,
+          "coins": 8,
+          "invalid": 8,
+          "bombs": 12,
+          "suicides": 1,
+          "score": 8,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 2.722280502319336,
+          "steps": 400,
+          "moves": 375,
+          "coins": 16,
+          "bombs": 16,
+          "invalid": 9,
+          "score": 16,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        }
+      ]
+    },
+    {
+      "seed": 2003,
+      "scores": [
+        15,
+        7,
+        12,
+        21
+      ],
+      "survived": true,
+      "stats": [
+        {
+          "time": 3.402057409286499,
+          "steps": 400,
+          "moves": 327,
+          "coins": 15,
+          "invalid": 21,
+          "bombs": 41,
+          "score": 15,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 2.084644079208374,
+          "steps": 308,
+          "moves": 293,
+          "coins": 7,
+          "invalid": 5,
+          "bombs": 10,
+          "suicides": 1,
+          "score": 7,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 1.8046987056732178,
+          "steps": 270,
+          "moves": 243,
+          "coins": 12,
+          "bombs": 13,
+          "invalid": 14,
+          "suicides": 1,
+          "score": 12,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 2.5279762744903564,
+          "steps": 400,
+          "moves": 374,
+          "coins": 16,
+          "invalid": 6,
+          "bombs": 19,
+          "kills": 1,
+          "score": 21,
+          "rounds": 1,
+          "suicides": 0
+        }
+      ]
+    },
+    {
+      "seed": 2004,
+      "scores": [
+        15,
+        8,
+        18,
+        14
+      ],
+      "survived": true,
+      "stats": [
+        {
+          "time": 2.751070261001587,
+          "steps": 325,
+          "moves": 263,
+          "coins": 15,
+          "bombs": 32,
+          "invalid": 15,
+          "score": 15,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 0.023172616958618164,
+          "steps": 27,
+          "moves": 21,
+          "coins": 8,
+          "invalid": 4,
+          "bombs": 2,
+          "suicides": 1,
+          "score": 8,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 0.19171953201293945,
+          "steps": 87,
+          "moves": 73,
+          "coins": 18,
+          "invalid": 7,
+          "bombs": 7,
+          "suicides": 1,
+          "score": 18,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 1.7019143104553223,
+          "steps": 319,
+          "moves": 282,
+          "coins": 9,
+          "bombs": 23,
+          "invalid": 8,
+          "kills": 1,
+          "suicides": 1,
+          "score": 14,
+          "rounds": 1
+        }
+      ]
+    },
+    {
+      "seed": 2005,
+      "scores": [
+        13,
+        13,
+        11,
+        18
+      ],
+      "survived": false,
+      "stats": [
+        {
+          "time": 0.1761629581451416,
+          "steps": 40,
+          "moves": 35,
+          "coins": 13,
+          "invalid": 2,
+          "score": 13,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 2.6990292072296143,
+          "steps": 400,
+          "moves": 376,
+          "coins": 13,
+          "invalid": 9,
+          "bombs": 10,
+          "score": 13,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 0.3595151901245117,
+          "steps": 114,
+          "moves": 97,
+          "coins": 11,
+          "bombs": 8,
+          "invalid": 7,
+          "suicides": 1,
+          "score": 11,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 2.936876058578491,
+          "steps": 400,
+          "moves": 379,
+          "coins": 13,
+          "bombs": 14,
+          "kills": 1,
+          "invalid": 7,
+          "score": 18,
+          "rounds": 1,
+          "suicides": 0
+        }
+      ]
+    },
+    {
+      "seed": 2006,
+      "scores": [
+        17,
+        17,
+        10,
+        11
+      ],
+      "survived": false,
+      "stats": [
+        {
+          "time": 1.9407052993774414,
+          "steps": 230,
+          "moves": 194,
+          "coins": 17,
+          "bombs": 22,
+          "invalid": 8,
+          "suicides": 1,
+          "score": 17,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 1.3342540264129639,
+          "steps": 238,
+          "moves": 203,
+          "coins": 12,
+          "invalid": 11,
+          "bombs": 14,
+          "kills": 1,
+          "score": 17,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 0.10988855361938477,
+          "steps": 51,
+          "moves": 45,
+          "coins": 10,
+          "invalid": 4,
+          "bombs": 2,
+          "suicides": 1,
+          "score": 10,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 0.2523922920227051,
+          "steps": 67,
+          "moves": 57,
+          "coins": 11,
+          "bombs": 5,
+          "invalid": 4,
+          "suicides": 1,
+          "score": 11,
+          "rounds": 1,
+          "kills": 0
+        }
+      ]
+    },
+    {
+      "seed": 2007,
+      "scores": [
+        25,
+        6,
+        27,
+        12
+      ],
+      "survived": true,
+      "stats": [
+        {
+          "time": 3.369276762008667,
+          "steps": 400,
+          "moves": 322,
+          "coins": 15,
+          "invalid": 18,
+          "bombs": 47,
+          "kills": 2,
+          "score": 25,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 0.17980051040649414,
+          "steps": 79,
+          "moves": 70,
+          "coins": 6,
+          "invalid": 3,
+          "bombs": 5,
+          "score": 6,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 2.226353645324707,
+          "steps": 400,
+          "moves": 356,
+          "coins": 17,
+          "bombs": 22,
+          "invalid": 20,
+          "kills": 2,
+          "score": 27,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 0.10443615913391113,
+          "steps": 72,
+          "moves": 61,
+          "coins": 12,
+          "bombs": 5,
+          "invalid": 6,
+          "suicides": 1,
+          "score": 12,
+          "rounds": 1,
+          "kills": 0
+        }
+      ]
+    },
+    {
+      "seed": 2008,
+      "scores": [
+        13,
+        13,
+        12,
+        17
+      ],
+      "survived": false,
+      "stats": [
+        {
+          "time": 0.5580055713653564,
+          "steps": 87,
+          "moves": 79,
+          "coins": 13,
+          "invalid": 2,
+          "bombs": 4,
+          "suicides": 1,
+          "score": 13,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 0.5388760566711426,
+          "steps": 134,
+          "moves": 119,
+          "coins": 13,
+          "bombs": 7,
+          "invalid": 8,
+          "score": 13,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 0.7448744773864746,
+          "steps": 179,
+          "moves": 153,
+          "coins": 7,
+          "bombs": 12,
+          "invalid": 9,
+          "kills": 1,
+          "score": 12,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 0.7804248332977295,
+          "steps": 175,
+          "moves": 157,
+          "coins": 17,
+          "bombs": 10,
+          "invalid": 7,
+          "suicides": 1,
+          "score": 17,
+          "rounds": 1,
+          "kills": 0
+        }
+      ]
+    },
+    {
+      "seed": 2009,
+      "scores": [
+        17,
+        13,
+        11,
+        9
+      ],
+      "survived": false,
+      "stats": [
+        {
+          "time": 1.3517534732818604,
+          "steps": 174,
+          "moves": 158,
+          "coins": 17,
+          "bombs": 12,
+          "suicides": 1,
+          "score": 17,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 2.656558036804199,
+          "steps": 400,
+          "moves": 369,
+          "coins": 13,
+          "invalid": 15,
+          "bombs": 15,
+          "score": 13,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 2.566929340362549,
+          "steps": 400,
+          "moves": 374,
+          "coins": 11,
+          "bombs": 18,
+          "invalid": 8,
+          "score": 11,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 0.22023677825927734,
+          "steps": 83,
+          "moves": 73,
+          "coins": 9,
+          "invalid": 4,
+          "bombs": 6,
+          "suicides": 1,
+          "score": 9,
+          "rounds": 1,
+          "kills": 0
+        }
+      ]
+    },
+    {
+      "seed": 2010,
+      "scores": [
+        10,
+        18,
+        10,
+        12
+      ],
+      "survived": false,
+      "stats": [
+        {
+          "time": 0.4327826499938965,
+          "steps": 75,
+          "moves": 65,
+          "coins": 10,
+          "invalid": 5,
+          "bombs": 2,
+          "suicides": 1,
+          "score": 10,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 1.0259714126586914,
+          "steps": 208,
+          "moves": 178,
+          "coins": 18,
+          "bombs": 18,
+          "invalid": 12,
+          "suicides": 1,
+          "score": 18,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 1.0289561748504639,
+          "steps": 188,
+          "moves": 153,
+          "coins": 10,
+          "invalid": 19,
+          "bombs": 14,
+          "suicides": 1,
+          "score": 10,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 1.025933027267456,
+          "steps": 216,
+          "moves": 175,
+          "coins": 12,
+          "invalid": 18,
+          "bombs": 15,
+          "score": 12,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        }
+      ]
+    },
+    {
+      "seed": 2011,
+      "scores": [
+        17,
+        13,
+        17,
+        8
+      ],
+      "survived": true,
+      "stats": [
+        {
+          "time": 1.9825103282928467,
+          "steps": 233,
+          "moves": 195,
+          "coins": 17,
+          "bombs": 21,
+          "invalid": 5,
+          "score": 17,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 0.15589189529418945,
+          "steps": 65,
+          "moves": 55,
+          "coins": 13,
+          "invalid": 5,
+          "bombs": 5,
+          "suicides": 1,
+          "score": 13,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 0.5055160522460938,
+          "steps": 115,
+          "moves": 101,
+          "coins": 12,
+          "invalid": 4,
+          "bombs": 8,
+          "kills": 1,
+          "suicides": 1,
+          "score": 17,
+          "rounds": 1
+        },
+        {
+          "time": 1.0686826705932617,
+          "steps": 227,
+          "moves": 192,
+          "coins": 8,
+          "bombs": 17,
+          "invalid": 15,
+          "suicides": 1,
+          "score": 8,
+          "rounds": 1,
+          "kills": 0
+        }
+      ]
+    },
+    {
+      "seed": 2012,
+      "scores": [
+        19,
+        9,
+        14,
+        13
+      ],
+      "survived": true,
+      "stats": [
+        {
+          "time": 3.4113059043884277,
+          "steps": 400,
+          "moves": 341,
+          "coins": 14,
+          "bombs": 44,
+          "invalid": 8,
+          "kills": 1,
+          "score": 19,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 2.3959240913391113,
+          "steps": 400,
+          "moves": 352,
+          "coins": 9,
+          "bombs": 25,
+          "invalid": 21,
+          "score": 9,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 0.30081605911254883,
+          "steps": 81,
+          "moves": 67,
+          "coins": 14,
+          "invalid": 8,
+          "bombs": 6,
+          "suicides": 1,
+          "score": 14,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 0.4523460865020752,
+          "steps": 125,
+          "moves": 108,
+          "coins": 13,
+          "invalid": 7,
+          "bombs": 9,
+          "score": 13,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        }
+      ]
+    },
+    {
+      "seed": 2013,
+      "scores": [
+        24,
+        7,
+        13,
+        16
+      ],
+      "survived": true,
+      "stats": [
+        {
+          "time": 3.4205877780914307,
+          "steps": 400,
+          "moves": 327,
+          "coins": 19,
+          "invalid": 16,
+          "bombs": 47,
+          "kills": 1,
+          "score": 24,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 0.8331153392791748,
+          "steps": 147,
+          "moves": 131,
+          "coins": 7,
+          "invalid": 7,
+          "bombs": 9,
+          "suicides": 1,
+          "score": 7,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 0.6411576271057129,
+          "steps": 119,
+          "moves": 105,
+          "coins": 13,
+          "bombs": 8,
+          "invalid": 6,
+          "suicides": 1,
+          "score": 13,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 2.42596697807312,
+          "steps": 400,
+          "moves": 359,
+          "coins": 11,
+          "invalid": 16,
+          "bombs": 22,
+          "kills": 1,
+          "score": 16,
+          "rounds": 1,
+          "suicides": 0
+        }
+      ]
+    },
+    {
+      "seed": 2014,
+      "scores": [
+        8,
+        21,
+        14,
+        27
+      ],
+      "survived": false,
+      "stats": [
+        {
+          "time": 0.07512593269348145,
+          "steps": 21,
+          "moves": 15,
+          "coins": 8,
+          "invalid": 1,
+          "score": 8,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 2.6207358837127686,
+          "steps": 400,
+          "moves": 375,
+          "coins": 11,
+          "bombs": 13,
+          "kills": 2,
+          "invalid": 11,
+          "score": 21,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 2.4351186752319336,
+          "steps": 400,
+          "moves": 374,
+          "coins": 9,
+          "bombs": 17,
+          "invalid": 8,
+          "kills": 1,
+          "score": 14,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 0.44750547409057617,
+          "steps": 157,
+          "moves": 138,
+          "coins": 22,
+          "bombs": 11,
+          "kills": 1,
+          "invalid": 6,
+          "score": 27,
+          "rounds": 1,
+          "suicides": 0
+        }
+      ]
+    },
+    {
+      "seed": 2015,
+      "scores": [
+        18,
+        14,
+        14,
+        14
+      ],
+      "survived": true,
+      "stats": [
+        {
+          "time": 3.351290702819824,
+          "steps": 400,
+          "moves": 331,
+          "coins": 13,
+          "bombs": 45,
+          "kills": 1,
+          "invalid": 12,
+          "score": 18,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 0.19046831130981445,
+          "steps": 73,
+          "moves": 63,
+          "coins": 14,
+          "invalid": 5,
+          "bombs": 5,
+          "suicides": 1,
+          "score": 14,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 0.27160120010375977,
+          "steps": 96,
+          "moves": 79,
+          "coins": 9,
+          "invalid": 9,
+          "bombs": 8,
+          "kills": 1,
+          "suicides": 1,
+          "score": 14,
+          "rounds": 1
+        },
+        {
+          "time": 2.111239194869995,
+          "steps": 400,
+          "moves": 357,
+          "coins": 14,
+          "bombs": 25,
+          "invalid": 17,
+          "score": 14,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        }
+      ]
+    },
+    {
+      "seed": 2016,
+      "scores": [
+        18,
+        14,
+        11,
+        17
+      ],
+      "survived": true,
+      "stats": [
+        {
+          "time": 3.398798942565918,
+          "steps": 400,
+          "moves": 334,
+          "coins": 13,
+          "bombs": 42,
+          "invalid": 14,
+          "kills": 1,
+          "score": 18,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 1.646918773651123,
+          "steps": 283,
+          "moves": 247,
+          "coins": 14,
+          "bombs": 21,
+          "invalid": 15,
+          "suicides": 1,
+          "score": 14,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 1.4891812801361084,
+          "steps": 220,
+          "moves": 205,
+          "coins": 11,
+          "invalid": 6,
+          "bombs": 9,
+          "score": 11,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 2.5790252685546875,
+          "steps": 400,
+          "moves": 363,
+          "coins": 12,
+          "invalid": 12,
+          "bombs": 24,
+          "kills": 1,
+          "score": 17,
+          "rounds": 1,
+          "suicides": 0
+        }
+      ]
+    },
+    {
+      "seed": 2017,
+      "scores": [
+        22,
+        16,
+        13,
+        14
+      ],
+      "survived": true,
+      "stats": [
+        {
+          "time": 3.3489553928375244,
+          "steps": 400,
+          "moves": 319,
+          "coins": 17,
+          "bombs": 48,
+          "kills": 1,
+          "invalid": 21,
+          "score": 22,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 0.1938037872314453,
+          "steps": 71,
+          "moves": 57,
+          "coins": 11,
+          "bombs": 6,
+          "invalid": 8,
+          "kills": 1,
+          "score": 16,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 2.1761152744293213,
+          "steps": 400,
+          "moves": 361,
+          "coins": 13,
+          "invalid": 16,
+          "bombs": 16,
+          "score": 13,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 0.1926271915435791,
+          "steps": 69,
+          "moves": 58,
+          "coins": 9,
+          "invalid": 4,
+          "bombs": 7,
+          "kills": 1,
+          "score": 14,
+          "rounds": 1,
+          "suicides": 0
+        }
+      ]
+    },
+    {
+      "seed": 2018,
+      "scores": [
+        14,
+        11,
+        25,
+        15
+      ],
+      "survived": false,
+      "stats": [
+        {
+          "time": 2.4651894569396973,
+          "steps": 292,
+          "moves": 242,
+          "coins": 14,
+          "bombs": 28,
+          "invalid": 12,
+          "suicides": 1,
+          "score": 14,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 0.2972908020019531,
+          "steps": 95,
+          "moves": 86,
+          "coins": 11,
+          "invalid": 4,
+          "bombs": 5,
+          "score": 11,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 1.6080989837646484,
+          "steps": 296,
+          "moves": 260,
+          "coins": 15,
+          "bombs": 19,
+          "invalid": 9,
+          "kills": 2,
+          "score": 25,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 0.3514213562011719,
+          "steps": 95,
+          "moves": 85,
+          "coins": 10,
+          "bombs": 6,
+          "invalid": 4,
+          "kills": 1,
+          "suicides": 1,
+          "score": 15,
+          "rounds": 1
+        }
+      ]
+    },
+    {
+      "seed": 2019,
+      "scores": [
+        21,
+        8,
+        16,
+        10
+      ],
+      "survived": false,
+      "stats": [
+        {
+          "time": 1.8461518287658691,
+          "steps": 237,
+          "moves": 198,
+          "coins": 21,
+          "bombs": 23,
+          "invalid": 8,
+          "suicides": 1,
+          "score": 21,
+          "rounds": 1,
+          "kills": 0
+        },
+        {
+          "time": 0.12905001640319824,
+          "steps": 73,
+          "moves": 67,
+          "coins": 8,
+          "invalid": 2,
+          "bombs": 4,
+          "score": 8,
+          "rounds": 1,
+          "kills": 0,
+          "suicides": 0
+        },
+        {
+          "time": 1.105910301208496,
+          "steps": 245,
+          "moves": 211,
+          "coins": 11,
+          "bombs": 19,
+          "invalid": 7,
+          "kills": 1,
+          "score": 16,
+          "rounds": 1,
+          "suicides": 0
+        },
+        {
+          "time": 0.027530908584594727,
+          "steps": 31,
+          "moves": 27,
+          "coins": 10,
+          "invalid": 2,
+          "bombs": 2,
+          "suicides": 1,
+          "score": 10,
+          "rounds": 1,
+          "kills": 0
+        }
+      ]
+    }
+  ]
+}

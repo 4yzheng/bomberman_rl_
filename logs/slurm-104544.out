@@ -1,0 +1,773 @@
+Saving videos to /export/scratch/ra26xel/bomberman/104544
+running on cpu
+  0%|          | 0/10 [00:00<?, ?it/s]ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 01 (2026-09-20 00-24-51)_*.png':
+  Duration: 00:00:37.60, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x7be3700] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x7be3700] profile High, level 5.0, 4:2:0, 8-bit
+[libx264 @ 0x7be3700] 264 - core 164 r3191 4613ac3 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=16 deblock=1:1:1 analyse=0x3:0x133 me=umh subme=10 psy=1 psy_rd=0.40:0.00 mixed_ref=1 me_range=24 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=19 lookahead_threads=4 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=10 b_pyramid=2 b_adapt=2 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=10 scenecut=40 intra_refresh=0 rc_lookahead=60 rc=crf mbtree=1 crf=5.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:0.60
+Output #0, mp4, to '/export/scratch/ra26xel/bomberman/104544/Round 01 (2026-09-20 00-24-51)_video.mp4':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1000x600, q=2-31, 10 fps, 10240 tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   29 fps=0.0 q=7.0 size=     256KiB time=00:00:02.80 bitrate= 749.1kbits/s speed= 5.6x    frame=  164 fps=164 q=7.0 size=    1024KiB time=00:00:16.20 bitrate= 517.8kbits/s speed=16.2x    frame=  325 fps=217 q=7.0 size=    1792KiB time=00:00:32.30 bitrate= 454.5kbits/s speed=21.5x    [out#0/mp4 @ 0x7bd84c0] video:2152KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.202339%
+frame=  376 fps=234 q=-1.0 Lsize=    2156KiB time=00:00:37.40 bitrate= 472.3kbits/s speed=23.3x    
+[libx264 @ 0x7be3700] frame I:2     Avg QP: 0.50  size:190270
+[libx264 @ 0x7be3700] frame P:81    Avg QP: 3.05  size:  3682
+[libx264 @ 0x7be3700] frame B:293   Avg QP: 6.24  size:  5202
+[libx264 @ 0x7be3700] consecutive B-frames:  2.9%  3.7% 10.4%  9.6% 10.6% 19.1% 37.2%  6.4%  0.0%  0.0%  0.0%
+[libx264 @ 0x7be3700] mb I  I16..4: 57.8%  0.2% 42.0%
+[libx264 @ 0x7be3700] mb P  I16..4:  0.4%  0.0%  0.2%  P16..4:  1.4%  0.3%  0.4%  0.1%  0.1%    skip:97.0%
+[libx264 @ 0x7be3700] mb B  I16..4:  0.0%  0.0%  0.3%  B16..8:  2.7%  0.4%  0.6%  direct: 0.4%  skip:95.7%  L0:61.6% L1:35.6% BI: 2.8%
+[libx264 @ 0x7be3700] 8x8 transform intra:0.3% inter:0.8%
+[libx264 @ 0x7be3700] direct mvs  spatial:96.9% temporal:3.1%
+[libx264 @ 0x7be3700] coded y,uvDC,uvAC intra: 47.9% 35.3% 34.4% inter: 0.9% 1.2% 1.2%
+[libx264 @ 0x7be3700] i16 v,h,dc,p: 94%  2%  4%  0%
+[libx264 @ 0x7be3700] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30%  6% 61%  1%  2%  0%  1%  0%  0%
+[libx264 @ 0x7be3700] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 23% 20% 19%  6%  6%  6%  5%  6%  8%
+[libx264 @ 0x7be3700] i8c dc,h,v,p: 66% 20% 11%  3%
+[libx264 @ 0x7be3700] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x7be3700] ref P L0: 43.5%  0.6% 23.0%  9.0%  6.1%  3.2%  2.8%  1.9%  2.5%  1.5%  1.7%  1.1%  0.9%  0.4%  1.1%  0.7%
+[libx264 @ 0x7be3700] ref B L0: 55.8% 16.5%  7.8%  4.6%  3.0%  2.4%  1.6%  1.6%  1.5%  1.2%  1.0%  1.0%  1.3%  0.4%  0.3%
+[libx264 @ 0x7be3700] ref B L1: 93.1%  6.9%
+[libx264 @ 0x7be3700] kb/s:468.73
+ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 01 (2026-09-20 00-24-51)_*.png':
+  Duration: 00:00:37.60, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[libvpx-vp9 @ 0x44cf9a40] v1.11.0-30-g888bafc78
+Output #0, webm, to '/export/scratch/ra26xel/bomberman/104544/Round 01 (2026-09-20 00-24-51)_video.webm':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: vp9, yuv420p(progressive), 1000x600, q=2-31, 2000 kb/s, 10 fps, 1k tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libvpx-vp9
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    9 fps=0.0 q=5.0 size=       0KiB time=00:00:00.90 bitrate=   4.1kbits/s speed= 1.8x    frame=   21 fps= 21 q=1.0 size=       0KiB time=00:00:02.10 bitrate=   1.8kbits/s speed= 2.1x    frame=   38 fps= 25 q=5.0 size=       0KiB time=00:00:03.80 bitrate=   1.0kbits/s speed=2.53x    frame=   70 fps= 35 q=5.0 size=     512KiB time=00:00:07.00 bitrate= 599.2kbits/s speed= 3.5x    frame=   93 fps= 37 q=5.0 size=     512KiB time=00:00:09.30 bitrate= 451.0kbits/s speed=3.72x    frame=  112 fps= 37 q=5.0 size=     768KiB time=00:00:11.20 bitrate= 561.7kbits/s speed=3.73x    frame=  143 fps= 41 q=5.0 size=     768KiB time=00:00:14.30 bitrate= 440.0kbits/s speed=4.08x    frame=  175 fps= 44 q=5.0 size=    1024KiB time=00:00:17.50 bitrate= 479.3kbits/s speed=4.37x    frame=  200 fps= 44 q=5.0 size=    1024KiB time=00:00:20.00 bitrate= 419.4kbits/s speed=4.44x    frame=  226 fps= 45 q=5.0 size=    1280KiB time=00:00:22.60 bitrate= 464.0kbits/s speed=4.52x    frame=  254 fps= 46 q=5.0 size=    1536KiB time=00:00:25.40 bitrate= 495.4kbits/s speed=4.62x    frame=  281 fps= 47 q=0.0 size=    1536KiB time=00:00:28.10 bitrate= 447.8kbits/s speed=4.68x    frame=  300 fps= 46 q=5.0 size=    1536KiB time=00:00:30.00 bitrate= 419.4kbits/s speed=4.61x    frame=  326 fps= 47 q=5.0 size=    1536KiB time=00:00:32.60 bitrate= 386.0kbits/s speed=4.66x    frame=  352 fps= 47 q=5.0 size=    1536KiB time=00:00:35.20 bitrate= 357.5kbits/s speed=4.69x    [out#0/webm @ 0x44d6cec0] video:2185KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.146162%
+frame=  376 fps= 48 q=5.0 Lsize=    2188KiB time=00:00:37.60 bitrate= 476.7kbits/s speed=4.78x    
+ 10%|█         | 1/10 [00:47<07:08, 47.56s/it]ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 02 (2026-09-20 00-25-38)_*.png':
+  Duration: 00:00:20.70, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0xeb04480] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0xeb04480] profile High, level 5.0, 4:2:0, 8-bit
+[libx264 @ 0xeb04480] 264 - core 164 r3191 4613ac3 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=16 deblock=1:1:1 analyse=0x3:0x133 me=umh subme=10 psy=1 psy_rd=0.40:0.00 mixed_ref=1 me_range=24 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=19 lookahead_threads=4 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=10 b_pyramid=2 b_adapt=2 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=10 scenecut=40 intra_refresh=0 rc_lookahead=60 rc=crf mbtree=1 crf=5.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:0.60
+Output #0, mp4, to '/export/scratch/ra26xel/bomberman/104544/Round 02 (2026-09-20 00-25-38)_video.mp4':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1000x600, q=2-31, 10 fps, 10240 tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   34 fps=0.0 q=7.0 size=     256KiB time=00:00:03.20 bitrate= 655.5kbits/s speed= 6.4x    [out#0/mp4 @ 0xeaf79c0] video:1354KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.211440%
+frame=  207 fps=0.0 q=-1.0 Lsize=    1357KiB time=00:00:20.50 bitrate= 542.1kbits/s speed=  22x    
+[libx264 @ 0xeb04480] frame I:1     Avg QP: 0.54  size:237849
+[libx264 @ 0xeb04480] frame P:49    Avg QP: 3.80  size:  5217
+[libx264 @ 0xeb04480] frame B:157   Avg QP: 6.81  size:  5682
+[libx264 @ 0xeb04480] consecutive B-frames:  3.9%  7.7%  4.3% 15.5% 14.5% 23.2% 27.1%  3.9%  0.0%  0.0%  0.0%
+[libx264 @ 0xeb04480] mb I  I16..4: 52.6%  0.0% 47.3%
+[libx264 @ 0xeb04480] mb P  I16..4:  0.5%  0.0%  0.2%  P16..4:  1.8%  0.4%  0.6%  0.2%  0.2%    skip:96.1%
+[libx264 @ 0xeb04480] mb B  I16..4:  0.0%  0.0%  0.3%  B16..8:  2.9%  0.4%  0.7%  direct: 0.4%  skip:95.3%  L0:60.2% L1:36.6% BI: 3.2%
+[libx264 @ 0xeb04480] 8x8 transform intra:0.4% inter:0.7%
+[libx264 @ 0xeb04480] direct mvs  spatial:93.6% temporal:6.4%
+[libx264 @ 0xeb04480] coded y,uvDC,uvAC intra: 51.7% 38.1% 37.4% inter: 1.0% 1.3% 1.3%
+[libx264 @ 0xeb04480] i16 v,h,dc,p: 95%  2%  3%  0%
+[libx264 @ 0xeb04480] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  3%  0% 97%  0%  0%  0%  0%  0%  0%
+[libx264 @ 0xeb04480] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 21% 20% 18%  6%  7%  6%  6%  7%  9%
+[libx264 @ 0xeb04480] i8c dc,h,v,p: 63% 21% 12%  4%
+[libx264 @ 0xeb04480] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0xeb04480] ref P L0: 46.9%  0.7% 20.8%  9.4%  5.8%  3.9%  3.4%  1.5%  1.2%  1.3%  1.4%  0.6%  0.7%  0.7%  0.9%  0.7%
+[libx264 @ 0xeb04480] ref B L0: 59.6% 14.7%  7.7%  4.4%  2.7%  2.5%  1.3%  1.1%  2.1%  0.9%  0.9%  0.6%  0.6%  0.7%  0.2%
+[libx264 @ 0xeb04480] ref B L1: 92.7%  7.3%
+[libx264 @ 0xeb04480] kb/s:535.46
+ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 02 (2026-09-20 00-25-38)_*.png':
+  Duration: 00:00:20.70, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[libvpx-vp9 @ 0x3c317200] v1.11.0-30-g888bafc78
+Output #0, webm, to '/export/scratch/ra26xel/bomberman/104544/Round 02 (2026-09-20 00-25-38)_video.webm':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: vp9, yuv420p(progressive), 1000x600, q=2-31, 2000 kb/s, 10 fps, 1k tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libvpx-vp9
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   10 fps=0.0 q=5.0 size=       0KiB time=00:00:01.00 bitrate=   3.7kbits/s speed=   2x    frame=   21 fps= 21 q=1.0 size=       0KiB time=00:00:02.10 bitrate=   1.8kbits/s speed= 2.1x    frame=   36 fps= 24 q=5.0 size=       0KiB time=00:00:03.60 bitrate=   1.0kbits/s speed= 2.4x    frame=   62 fps= 31 q=5.0 size=     512KiB time=00:00:06.20 bitrate= 676.5kbits/s speed= 3.1x    frame=   85 fps= 34 q=5.0 size=     512KiB time=00:00:08.50 bitrate= 493.4kbits/s speed= 3.4x    frame=  103 fps= 34 q=5.0 size=     768KiB time=00:00:10.30 bitrate= 610.8kbits/s speed=3.43x    frame=  129 fps= 37 q=5.0 size=     768KiB time=00:00:12.90 bitrate= 487.7kbits/s speed=3.68x    frame=  164 fps= 41 q=5.0 size=    1024KiB time=00:00:16.40 bitrate= 511.5kbits/s speed= 4.1x    frame=  183 fps= 41 q=5.0 size=    1024KiB time=00:00:18.30 bitrate= 458.4kbits/s speed=4.07x    [out#0/webm @ 0x3c315b00] video:1442KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.137625%
+frame=  207 fps= 43 q=5.0 Lsize=    1444KiB time=00:00:20.70 bitrate= 571.4kbits/s speed= 4.3x    
+ 20%|██        | 2/10 [01:14<04:42, 35.26s/it]ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 03 (2026-09-20 00-26-05)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x1d118940] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x1d118940] profile High, level 5.0, 4:2:0, 8-bit
+[libx264 @ 0x1d118940] 264 - core 164 r3191 4613ac3 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=16 deblock=1:1:1 analyse=0x3:0x133 me=umh subme=10 psy=1 psy_rd=0.40:0.00 mixed_ref=1 me_range=24 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=19 lookahead_threads=4 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=10 b_pyramid=2 b_adapt=2 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=10 scenecut=40 intra_refresh=0 rc_lookahead=60 rc=crf mbtree=1 crf=5.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:0.60
+Output #0, mp4, to '/export/scratch/ra26xel/bomberman/104544/Round 03 (2026-09-20 00-26-05)_video.mp4':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1000x600, q=2-31, 10 fps, 10240 tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   39 fps=0.0 q=7.0 size=     512KiB time=00:00:03.70 bitrate=1133.7kbits/s speed= 7.4x    frame=  181 fps=181 q=7.0 size=    1280KiB time=00:00:17.90 bitrate= 585.8kbits/s speed=17.9x    frame=  358 fps=239 q=7.0 size=    2048KiB time=00:00:35.60 bitrate= 471.3kbits/s speed=23.7x    [out#0/mp4 @ 0x1d108640] video:2436KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.185492%
+frame=  400 fps=252 q=-1.0 Lsize=    2441KiB time=00:00:39.80 bitrate= 502.3kbits/s speed=25.1x    
+[libx264 @ 0x1d118940] frame I:2     Avg QP: 0.41  size:187065
+[libx264 @ 0x1d118940] frame P:77    Avg QP: 3.35  size:  4823
+[libx264 @ 0x1d118940] frame B:321   Avg QP: 6.57  size:  5446
+[libx264 @ 0x1d118940] consecutive B-frames:  2.0%  3.5%  4.5%  8.0% 16.2% 21.0% 24.5%  6.0%  9.0%  2.5%  2.8%
+[libx264 @ 0x1d118940] mb I  I16..4: 58.7%  0.1% 41.2%
+[libx264 @ 0x1d118940] mb P  I16..4:  0.5%  0.0%  0.2%  P16..4:  1.8%  0.4%  0.6%  0.2%  0.2%    skip:96.2%
+[libx264 @ 0x1d118940] mb B  I16..4:  0.0%  0.0%  0.3%  B16..8:  3.3%  0.4%  0.6%  direct: 0.4%  skip:95.0%  L0:60.9% L1:36.5% BI: 2.6%
+[libx264 @ 0x1d118940] 8x8 transform intra:0.2% inter:0.8%
+[libx264 @ 0x1d118940] direct mvs  spatial:97.5% temporal:2.5%
+[libx264 @ 0x1d118940] coded y,uvDC,uvAC intra: 47.5% 35.8% 34.9% inter: 1.0% 1.3% 1.3%
+[libx264 @ 0x1d118940] i16 v,h,dc,p: 95%  2%  3%  0%
+[libx264 @ 0x1d118940] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  9%  5% 79%  1%  3%  0%  1%  0%  1%
+[libx264 @ 0x1d118940] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 19% 20%  6%  6%  6%  5%  7%  8%
+[libx264 @ 0x1d118940] i8c dc,h,v,p: 66% 19% 12%  4%
+[libx264 @ 0x1d118940] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x1d118940] ref P L0: 39.7%  0.5% 24.1%  8.8%  6.0%  4.0%  2.9%  2.6%  2.2%  1.5%  1.4%  1.6%  1.5%  1.2%  1.1%  0.9%
+[libx264 @ 0x1d118940] ref B L0: 55.8% 17.2%  7.7%  4.2%  2.6%  2.7%  1.8%  1.3%  1.1%  1.3%  1.1%  1.1%  1.2%  0.6%  0.2%
+[libx264 @ 0x1d118940] ref B L1: 92.7%  7.3%
+[libx264 @ 0x1d118940] kb/s:498.75
+ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 03 (2026-09-20 00-26-05)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[libvpx-vp9 @ 0x26bfda00] v1.11.0-30-g888bafc78
+Output #0, webm, to '/export/scratch/ra26xel/bomberman/104544/Round 03 (2026-09-20 00-26-05)_video.webm':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: vp9, yuv420p(progressive), 1000x600, q=2-31, 2000 kb/s, 10 fps, 1k tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libvpx-vp9
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   10 fps=0.0 q=5.0 size=       0KiB time=00:00:01.00 bitrate=   3.7kbits/s speed=   2x    frame=   21 fps= 21 q=1.0 size=       0KiB time=00:00:02.10 bitrate=   1.8kbits/s speed= 2.1x    frame=   37 fps= 25 q=5.0 size=       0KiB time=00:00:03.70 bitrate=   1.0kbits/s speed=2.47x    frame=   60 fps= 30 q=5.0 size=     512KiB time=00:00:06.00 bitrate= 699.1kbits/s speed=   3x    frame=   83 fps= 33 q=5.0 size=     512KiB time=00:00:08.30 bitrate= 505.3kbits/s speed=3.32x    frame=  100 fps= 33 q=5.0 size=     512KiB time=00:00:10.00 bitrate= 419.4kbits/s speed=3.33x    frame=  127 fps= 36 q=5.0 size=     768KiB time=00:00:12.70 bitrate= 495.4kbits/s speed=3.63x    frame=  153 fps= 38 q=5.0 size=    1024KiB time=00:00:15.30 bitrate= 548.3kbits/s speed=3.82x    frame=  180 fps= 40 q=5.0 size=    1024KiB time=00:00:18.00 bitrate= 466.0kbits/s speed=   4x    frame=  200 fps= 40 q=5.0 size=    1024KiB time=00:00:20.00 bitrate= 419.4kbits/s speed=   4x    frame=  228 fps= 41 q=5.0 size=    1280KiB time=00:00:22.80 bitrate= 459.9kbits/s speed=4.14x    frame=  253 fps= 42 q=5.0 size=    1536KiB time=00:00:25.30 bitrate= 497.3kbits/s speed=4.22x    frame=  281 fps= 43 q=2.0 size=    1536KiB time=00:00:28.10 bitrate= 447.8kbits/s speed=4.32x    frame=  304 fps= 43 q=5.0 size=    1792KiB time=00:00:30.40 bitrate= 482.9kbits/s speed=4.34x    frame=  318 fps= 42 q=5.0 size=    1792KiB time=00:00:31.80 bitrate= 461.6kbits/s speed=4.24x    frame=  355 fps= 44 q=5.0 size=    2048KiB time=00:00:35.50 bitrate= 472.6kbits/s speed=4.44x    frame=  376 fps= 44 q=5.0 size=    2048KiB time=00:00:37.60 bitrate= 446.2kbits/s speed=4.42x    [out#0/webm @ 0x26bed780] video:2404KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.139918%
+frame=  400 fps= 46 q=5.0 Lsize=    2407KiB time=00:00:40.00 bitrate= 493.0kbits/s speed=4.62x    
+ 30%|███       | 3/10 [02:04<04:55, 42.26s/it]ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 04 (2026-09-20 00-26-55)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x15ee3940] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x15ee3940] profile High, level 5.0, 4:2:0, 8-bit
+[libx264 @ 0x15ee3940] 264 - core 164 r3191 4613ac3 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=16 deblock=1:1:1 analyse=0x3:0x133 me=umh subme=10 psy=1 psy_rd=0.40:0.00 mixed_ref=1 me_range=24 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=19 lookahead_threads=4 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=10 b_pyramid=2 b_adapt=2 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=10 scenecut=40 intra_refresh=0 rc_lookahead=60 rc=crf mbtree=1 crf=5.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:0.60
+Output #0, mp4, to '/export/scratch/ra26xel/bomberman/104544/Round 04 (2026-09-20 00-26-55)_video.mp4':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1000x600, q=2-31, 10 fps, 10240 tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   32 fps=0.0 q=7.0 size=     256KiB time=00:00:03.00 bitrate= 699.2kbits/s speed=   6x    frame=  179 fps=179 q=7.0 size=    1280KiB time=00:00:17.70 bitrate= 592.4kbits/s speed=17.7x    frame=  337 fps=225 q=7.0 size=    2048KiB time=00:00:33.50 bitrate= 500.8kbits/s speed=22.3x    [out#0/mp4 @ 0x15ed3640] video:2296KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.205272%
+frame=  400 fps=247 q=-1.0 Lsize=    2301KiB time=00:00:39.80 bitrate= 473.6kbits/s speed=24.6x    
+[libx264 @ 0x15ee3940] frame I:2     Avg QP: 0.40  size:192721
+[libx264 @ 0x15ee3940] frame P:89    Avg QP: 2.94  size:  3862
+[libx264 @ 0x15ee3940] frame B:309   Avg QP: 6.04  size:  5248
+[libx264 @ 0x15ee3940] consecutive B-frames:  2.8%  5.0%  6.8% 20.0% 15.0% 16.5% 21.0%  8.0%  2.2%  0.0%  2.8%
+[libx264 @ 0x15ee3940] mb I  I16..4: 57.9%  0.2% 41.9%
+[libx264 @ 0x15ee3940] mb P  I16..4:  0.4%  0.0%  0.2%  P16..4:  1.5%  0.3%  0.4%  0.1%  0.1%    skip:96.8%
+[libx264 @ 0x15ee3940] mb B  I16..4:  0.0%  0.0%  0.3%  B16..8:  2.8%  0.4%  0.6%  direct: 0.4%  skip:95.5%  L0:62.8% L1:34.5% BI: 2.7%
+[libx264 @ 0x15ee3940] 8x8 transform intra:1.2% inter:0.7%
+[libx264 @ 0x15ee3940] direct mvs  spatial:96.4% temporal:3.6%
+[libx264 @ 0x15ee3940] coded y,uvDC,uvAC intra: 47.0% 35.9% 35.3% inter: 0.9% 1.2% 1.2%
+[libx264 @ 0x15ee3940] i16 v,h,dc,p: 95%  2%  3%  0%
+[libx264 @ 0x15ee3940] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  9%  0% 91%  0%  0%  0%  0%  0%  0%
+[libx264 @ 0x15ee3940] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 20% 19%  5%  7%  6%  5%  6%  9%
+[libx264 @ 0x15ee3940] i8c dc,h,v,p: 66% 19% 11%  4%
+[libx264 @ 0x15ee3940] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x15ee3940] ref P L0: 42.2%  0.7% 23.9%  9.2%  6.5%  3.6%  2.5%  2.2%  1.5%  1.1%  1.1%  1.4%  1.3%  0.6%  1.1%  0.9%
+[libx264 @ 0x15ee3940] ref B L0: 57.2% 16.6%  6.5%  4.3%  2.8%  2.4%  2.1%  1.6%  1.3%  1.1%  1.3%  1.1%  0.9%  0.5%  0.3%
+[libx264 @ 0x15ee3940] ref B L1: 92.0%  8.0%
+[libx264 @ 0x15ee3940] kb/s:470.16
+ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 04 (2026-09-20 00-26-55)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[libvpx-vp9 @ 0x18a28a00] v1.11.0-30-g888bafc78
+Output #0, webm, to '/export/scratch/ra26xel/bomberman/104544/Round 04 (2026-09-20 00-26-55)_video.webm':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: vp9, yuv420p(progressive), 1000x600, q=2-31, 2000 kb/s, 10 fps, 1k tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libvpx-vp9
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   10 fps=0.0 q=5.0 size=       0KiB time=00:00:01.00 bitrate=   3.7kbits/s speed=   2x    frame=   21 fps= 21 q=1.0 size=       0KiB time=00:00:02.10 bitrate=   1.8kbits/s speed= 2.1x    frame=   39 fps= 26 q=5.0 size=       0KiB time=00:00:03.90 bitrate=   1.0kbits/s speed= 2.6x    frame=   61 fps= 30 q=1.0 size=     512KiB time=00:00:06.10 bitrate= 687.6kbits/s speed=3.05x    frame=   86 fps= 34 q=5.0 size=     512KiB time=00:00:08.60 bitrate= 487.7kbits/s speed=3.44x    frame=  104 fps= 35 q=5.0 size=     768KiB time=00:00:10.40 bitrate= 604.9kbits/s speed=3.47x    frame=  126 fps= 36 q=5.0 size=     768KiB time=00:00:12.60 bitrate= 499.3kbits/s speed= 3.6x    frame=  158 fps= 39 q=5.0 size=    1280KiB time=00:00:15.80 bitrate= 663.7kbits/s speed=3.95x    frame=  187 fps= 42 q=5.0 size=    1280KiB time=00:00:18.70 bitrate= 560.7kbits/s speed=4.15x    frame=  208 fps= 42 q=5.0 size=    1280KiB time=00:00:20.80 bitrate= 504.1kbits/s speed=4.16x    frame=  237 fps= 43 q=5.0 size=    1280KiB time=00:00:23.70 bitrate= 442.4kbits/s speed=4.31x    frame=  271 fps= 45 q=0.0 size=    1536KiB time=00:00:27.10 bitrate= 464.3kbits/s speed=4.52x    frame=  300 fps= 46 q=5.0 size=    1536KiB time=00:00:30.00 bitrate= 419.4kbits/s speed=4.61x    frame=  323 fps= 46 q=5.0 size=    1792KiB time=00:00:32.30 bitrate= 454.5kbits/s speed=4.61x    frame=  353 fps= 47 q=5.0 size=    2048KiB time=00:00:35.30 bitrate= 475.3kbits/s speed=4.71x    frame=  376 fps= 47 q=5.0 size=    2048KiB time=00:00:37.60 bitrate= 446.2kbits/s speed= 4.7x    [out#0/webm @ 0x18a18780] video:2276KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.147699%
+frame=  400 fps= 49 q=5.0 Lsize=    2279KiB time=00:00:40.00 bitrate= 466.8kbits/s speed=4.89x    
+ 40%|████      | 4/10 [02:55<04:32, 45.40s/it]ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 05 (2026-09-20 00-27-46)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x2d113940] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x2d113940] profile High, level 5.0, 4:2:0, 8-bit
+[libx264 @ 0x2d113940] 264 - core 164 r3191 4613ac3 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=16 deblock=1:1:1 analyse=0x3:0x133 me=umh subme=10 psy=1 psy_rd=0.40:0.00 mixed_ref=1 me_range=24 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=19 lookahead_threads=4 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=10 b_pyramid=2 b_adapt=2 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=10 scenecut=40 intra_refresh=0 rc_lookahead=60 rc=crf mbtree=1 crf=5.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:0.60
+Output #0, mp4, to '/export/scratch/ra26xel/bomberman/104544/Round 05 (2026-09-20 00-27-46)_video.mp4':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1000x600, q=2-31, 10 fps, 10240 tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   47 fps=0.0 q=7.0 size=     512KiB time=00:00:04.50 bitrate= 932.2kbits/s speed=   9x    frame=  215 fps=215 q=7.0 size=    1280KiB time=00:00:21.30 bitrate= 492.3kbits/s speed=21.3x    [out#0/mp4 @ 0x2d103640] video:2167KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.211012%
+frame=  400 fps=269 q=-1.0 Lsize=    2172KiB time=00:00:39.80 bitrate= 447.0kbits/s speed=26.8x    
+[libx264 @ 0x2d113940] frame I:2     Avg QP: 0.41  size:189590
+[libx264 @ 0x2d113940] frame P:88    Avg QP: 2.92  size:  3835
+[libx264 @ 0x2d113940] frame B:310   Avg QP: 6.01  size:  4845
+[libx264 @ 0x2d113940] consecutive B-frames:  4.5%  3.0%  7.5%  9.0% 15.0% 21.0% 29.8%  0.0%  0.0%  7.5%  2.8%
+[libx264 @ 0x2d113940] mb I  I16..4: 58.4%  0.1% 41.5%
+[libx264 @ 0x2d113940] mb P  I16..4:  0.4%  0.0%  0.2%  P16..4:  1.4%  0.3%  0.4%  0.1%  0.1%    skip:96.9%
+[libx264 @ 0x2d113940] mb B  I16..4:  0.0%  0.0%  0.3%  B16..8:  2.7%  0.4%  0.6%  direct: 0.3%  skip:95.8%  L0:60.8% L1:36.5% BI: 2.7%
+[libx264 @ 0x2d113940] 8x8 transform intra:0.3% inter:0.7%
+[libx264 @ 0x2d113940] direct mvs  spatial:97.1% temporal:2.9%
+[libx264 @ 0x2d113940] coded y,uvDC,uvAC intra: 46.7% 35.2% 34.5% inter: 0.8% 1.1% 1.1%
+[libx264 @ 0x2d113940] i16 v,h,dc,p: 95%  2%  3%  0%
+[libx264 @ 0x2d113940] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 12%  3% 77%  1%  3%  0%  1%  0%  1%
+[libx264 @ 0x2d113940] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 20% 20%  5%  6%  6%  5%  6%  8%
+[libx264 @ 0x2d113940] i8c dc,h,v,p: 66% 20% 11%  3%
+[libx264 @ 0x2d113940] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x2d113940] ref P L0: 42.3%  0.7% 23.0%  9.6%  6.0%  3.2%  2.9%  1.8%  1.6%  1.4%  1.5%  1.5%  1.1%  1.6%  1.0%  0.6%
+[libx264 @ 0x2d113940] ref B L0: 56.7% 15.5%  7.4%  4.2%  3.0%  2.4%  1.8%  1.2%  1.6%  1.3%  1.6%  1.1%  1.5%  0.5%  0.2%
+[libx264 @ 0x2d113940] ref B L1: 93.4%  6.6%
+[libx264 @ 0x2d113940] kb/s:443.72
+ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 05 (2026-09-20 00-27-46)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[libvpx-vp9 @ 0x3c121a00] v1.11.0-30-g888bafc78
+Output #0, webm, to '/export/scratch/ra26xel/bomberman/104544/Round 05 (2026-09-20 00-27-46)_video.webm':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: vp9, yuv420p(progressive), 1000x600, q=2-31, 2000 kb/s, 10 fps, 1k tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libvpx-vp9
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   10 fps=0.0 q=5.0 size=       0KiB time=00:00:01.00 bitrate=   3.7kbits/s speed=   2x    frame=   22 fps= 22 q=5.0 size=       0KiB time=00:00:02.20 bitrate=   1.7kbits/s speed= 2.2x    frame=   42 fps= 28 q=5.0 size=       0KiB time=00:00:04.20 bitrate=   0.9kbits/s speed= 2.8x    frame=   67 fps= 33 q=5.0 size=     512KiB time=00:00:06.70 bitrate= 626.0kbits/s speed=3.35x    frame=   94 fps= 38 q=5.0 size=     512KiB time=00:00:09.40 bitrate= 446.2kbits/s speed=3.76x    frame=  111 fps= 37 q=1.0 size=     768KiB time=00:00:11.10 bitrate= 566.8kbits/s speed= 3.7x    frame=  142 fps= 41 q=5.0 size=     768KiB time=00:00:14.20 bitrate= 443.1kbits/s speed=4.06x    frame=  173 fps= 43 q=5.0 size=    1024KiB time=00:00:17.30 bitrate= 484.9kbits/s speed=4.32x    frame=  200 fps= 44 q=5.0 size=    1024KiB time=00:00:20.00 bitrate= 419.4kbits/s speed=4.44x    frame=  222 fps= 44 q=5.0 size=    1280KiB time=00:00:22.20 bitrate= 472.3kbits/s speed=4.44x    frame=  254 fps= 46 q=5.0 size=    1536KiB time=00:00:25.40 bitrate= 495.4kbits/s speed=4.62x    frame=  283 fps= 47 q=5.0 size=    1536KiB time=00:00:28.30 bitrate= 444.6kbits/s speed=4.72x    frame=  300 fps= 46 q=5.0 size=    1536KiB time=00:00:30.00 bitrate= 419.4kbits/s speed=4.61x    frame=  340 fps= 49 q=5.0 size=    1536KiB time=00:00:34.00 bitrate= 370.1kbits/s speed=4.86x    frame=  376 fps= 50 q=5.0 size=    1792KiB time=00:00:37.60 bitrate= 390.4kbits/s speed=5.01x    [out#0/webm @ 0x3c111780] video:2122KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.158233%
+frame=  400 fps= 51 q=5.0 Lsize=    2125KiB time=00:00:40.00 bitrate= 435.2kbits/s speed=5.15x    
+ 50%|█████     | 5/10 [03:44<03:54, 46.99s/it]ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 06 (2026-09-20 00-28-35)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x2af05940] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x2af05940] profile High, level 5.0, 4:2:0, 8-bit
+[libx264 @ 0x2af05940] 264 - core 164 r3191 4613ac3 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=16 deblock=1:1:1 analyse=0x3:0x133 me=umh subme=10 psy=1 psy_rd=0.40:0.00 mixed_ref=1 me_range=24 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=19 lookahead_threads=4 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=10 b_pyramid=2 b_adapt=2 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=10 scenecut=40 intra_refresh=0 rc_lookahead=60 rc=crf mbtree=1 crf=5.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:0.60
+Output #0, mp4, to '/export/scratch/ra26xel/bomberman/104544/Round 06 (2026-09-20 00-28-35)_video.mp4':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1000x600, q=2-31, 10 fps, 10240 tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   41 fps=0.0 q=7.0 size=     512KiB time=00:00:03.90 bitrate=1075.6kbits/s speed= 7.8x    frame=  201 fps=201 q=7.0 size=    1280KiB time=00:00:19.90 bitrate= 526.9kbits/s speed=19.9x    frame=  399 fps=266 q=-1.0 size=    2048KiB time=00:00:39.70 bitrate= 422.6kbits/s speed=26.5x    [out#0/mp4 @ 0x2aef5640] video:2275KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.204819%
+frame=  400 fps=264 q=-1.0 Lsize=    2279KiB time=00:00:39.80 bitrate= 469.2kbits/s speed=26.3x    
+[libx264 @ 0x2af05940] frame I:2     Avg QP: 0.41  size:189417
+[libx264 @ 0x2af05940] frame P:94    Avg QP: 3.18  size:  3605
+[libx264 @ 0x2af05940] frame B:304   Avg QP: 6.12  size:  5299
+[libx264 @ 0x2af05940] consecutive B-frames:  5.5%  4.0%  5.2% 13.0% 10.0% 28.5% 31.5%  0.0%  2.2%  0.0%  0.0%
+[libx264 @ 0x2af05940] mb I  I16..4: 58.3%  0.0% 41.7%
+[libx264 @ 0x2af05940] mb P  I16..4:  0.4%  0.0%  0.1%  P16..4:  1.4%  0.3%  0.5%  0.2%  0.1%    skip:96.9%
+[libx264 @ 0x2af05940] mb B  I16..4:  0.0%  0.0%  0.3%  B16..8:  2.7%  0.4%  0.6%  direct: 0.4%  skip:95.7%  L0:61.5% L1:35.4% BI: 3.2%
+[libx264 @ 0x2af05940] 8x8 transform intra:0.3% inter:0.7%
+[libx264 @ 0x2af05940] direct mvs  spatial:96.4% temporal:3.6%
+[libx264 @ 0x2af05940] coded y,uvDC,uvAC intra: 46.7% 34.6% 33.9% inter: 0.9% 1.2% 1.2%
+[libx264 @ 0x2af05940] i16 v,h,dc,p: 95%  2%  3%  0%
+[libx264 @ 0x2af05940] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  5%  0% 91%  0%  0%  1%  1%  0%  1%
+[libx264 @ 0x2af05940] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 20% 21%  6%  6%  6%  5%  6%  8%
+[libx264 @ 0x2af05940] i8c dc,h,v,p: 66% 19% 11%  3%
+[libx264 @ 0x2af05940] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x2af05940] ref P L0: 41.5%  0.6% 20.7% 11.5%  5.8%  3.4%  2.2%  2.3%  1.8%  1.7%  1.9%  1.5%  1.1%  1.0%  1.3%  1.6%
+[libx264 @ 0x2af05940] ref B L0: 56.4% 14.5%  8.1%  4.4%  3.6%  2.8%  1.7%  1.4%  1.4%  0.9%  1.4%  1.2%  0.9%  0.9%  0.3%
+[libx264 @ 0x2af05940] ref B L1: 92.2%  7.8%
+[libx264 @ 0x2af05940] kb/s:465.74
+ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 06 (2026-09-20 00-28-35)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[libvpx-vp9 @ 0x259c4a00] v1.11.0-30-g888bafc78
+Output #0, webm, to '/export/scratch/ra26xel/bomberman/104544/Round 06 (2026-09-20 00-28-35)_video.webm':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: vp9, yuv420p(progressive), 1000x600, q=2-31, 2000 kb/s, 10 fps, 1k tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libvpx-vp9
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   10 fps=0.0 q=5.0 size=       0KiB time=00:00:01.00 bitrate=   3.7kbits/s speed=   2x    frame=   23 fps= 23 q=5.0 size=       0KiB time=00:00:02.30 bitrate=   1.6kbits/s speed= 2.3x    frame=   40 fps= 27 q=5.0 size=       0KiB time=00:00:04.00 bitrate=   0.9kbits/s speed=2.67x    frame=   73 fps= 36 q=5.0 size=     512KiB time=00:00:07.30 bitrate= 574.6kbits/s speed=3.65x    frame=   96 fps= 38 q=5.0 size=     512KiB time=00:00:09.60 bitrate= 436.9kbits/s speed=3.84x    frame=  110 fps= 37 q=5.0 size=     768KiB time=00:00:11.00 bitrate= 572.0kbits/s speed=3.67x    frame=  136 fps= 39 q=5.0 size=     768KiB time=00:00:13.60 bitrate= 462.6kbits/s speed=3.88x    frame=  169 fps= 42 q=5.0 size=    1280KiB time=00:00:16.90 bitrate= 620.5kbits/s speed=4.22x    frame=  200 fps= 44 q=5.0 size=    1280KiB time=00:00:20.00 bitrate= 524.3kbits/s speed=4.44x    frame=  221 fps= 44 q=0.0 size=    1280KiB time=00:00:22.10 bitrate= 474.5kbits/s speed=4.42x    frame=  252 fps= 46 q=5.0 size=    1280KiB time=00:00:25.20 bitrate= 416.1kbits/s speed=4.58x    frame=  286 fps= 48 q=5.0 size=    1536KiB time=00:00:28.60 bitrate= 440.0kbits/s speed=4.77x    frame=  306 fps= 47 q=5.0 size=    1792KiB time=00:00:30.60 bitrate= 479.7kbits/s speed=4.71x    frame=  341 fps= 49 q=0.0 size=    1792KiB time=00:00:34.10 bitrate= 430.5kbits/s speed=4.87x    frame=  376 fps= 50 q=5.0 size=    2048KiB time=00:00:37.60 bitrate= 446.2kbits/s speed=5.01x    [out#0/webm @ 0x259b4780] video:2233KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.150463%
+frame=  400 fps= 51 q=5.0 Lsize=    2237KiB time=00:00:40.00 bitrate= 458.1kbits/s speed=5.08x    
+ 60%|██████    | 6/10 [04:34<03:11, 47.94s/it]ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 07 (2026-09-20 00-29-25)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x294d4980] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x294d4980] profile High, level 5.0, 4:2:0, 8-bit
+[libx264 @ 0x294d4980] 264 - core 164 r3191 4613ac3 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=16 deblock=1:1:1 analyse=0x3:0x133 me=umh subme=10 psy=1 psy_rd=0.40:0.00 mixed_ref=1 me_range=24 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=19 lookahead_threads=4 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=10 b_pyramid=2 b_adapt=2 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=10 scenecut=40 intra_refresh=0 rc_lookahead=60 rc=crf mbtree=1 crf=5.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:0.60
+Output #0, mp4, to '/export/scratch/ra26xel/bomberman/104544/Round 07 (2026-09-20 00-29-25)_video.mp4':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1000x600, q=2-31, 10 fps, 10240 tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   35 fps=0.0 q=7.0 size=     256KiB time=00:00:03.30 bitrate= 635.6kbits/s speed= 6.6x    frame=  190 fps=190 q=7.0 size=    1280KiB time=00:00:18.80 bitrate= 557.8kbits/s speed=18.8x    frame=  366 fps=244 q=7.0 size=    2048KiB time=00:00:36.40 bitrate= 460.9kbits/s speed=24.3x    [out#0/mp4 @ 0x294c4640] video:2334KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.200257%
+frame=  400 fps=257 q=-1.0 Lsize=    2339KiB time=00:00:39.80 bitrate= 481.4kbits/s speed=25.6x    
+[libx264 @ 0x294d4980] frame I:2     Avg QP: 0.39  size:190734
+[libx264 @ 0x294d4980] frame P:89    Avg QP: 3.21  size:  3926
+[libx264 @ 0x294d4980] frame B:309   Avg QP: 6.50  size:  5368
+[libx264 @ 0x294d4980] consecutive B-frames:  3.8%  4.0%  6.0% 12.0% 16.2% 24.0% 28.0%  6.0%  0.0%  0.0%  0.0%
+[libx264 @ 0x294d4980] mb I  I16..4: 58.1%  0.1% 41.8%
+[libx264 @ 0x294d4980] mb P  I16..4:  0.5%  0.0%  0.2%  P16..4:  1.6%  0.3%  0.5%  0.2%  0.1%    skip:96.7%
+[libx264 @ 0x294d4980] mb B  I16..4:  0.0%  0.0%  0.3%  B16..8:  2.7%  0.4%  0.6%  direct: 0.4%  skip:95.7%  L0:61.5% L1:35.6% BI: 2.9%
+[libx264 @ 0x294d4980] 8x8 transform intra:0.3% inter:0.7%
+[libx264 @ 0x294d4980] direct mvs  spatial:97.1% temporal:2.9%
+[libx264 @ 0x294d4980] coded y,uvDC,uvAC intra: 46.8% 36.3% 35.3% inter: 0.9% 1.2% 1.2%
+[libx264 @ 0x294d4980] i16 v,h,dc,p: 95%  2%  3%  0%
+[libx264 @ 0x294d4980] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 11%  1% 84%  0%  1%  1%  1%  1%  1%
+[libx264 @ 0x294d4980] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 20% 21%  5%  6%  6%  5%  7%  8%
+[libx264 @ 0x294d4980] i8c dc,h,v,p: 66% 19% 12%  3%
+[libx264 @ 0x294d4980] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x294d4980] ref P L0: 39.5%  0.5% 22.7%  9.9%  7.2%  3.6%  3.9%  3.0%  1.5%  1.5%  1.1%  1.0%  1.1%  1.3%  0.9%  1.2%
+[libx264 @ 0x294d4980] ref B L0: 57.2% 14.2%  7.8%  4.1%  3.0%  2.7%  1.9%  2.0%  1.4%  1.0%  1.5%  0.9%  1.3%  0.8%  0.4%
+[libx264 @ 0x294d4980] ref B L1: 93.1%  6.9%
+[libx264 @ 0x294d4980] kb/s:477.95
+ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 07 (2026-09-20 00-29-25)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[libvpx-vp9 @ 0x1d88b900] v1.11.0-30-g888bafc78
+Output #0, webm, to '/export/scratch/ra26xel/bomberman/104544/Round 07 (2026-09-20 00-29-25)_video.webm':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: vp9, yuv420p(progressive), 1000x600, q=2-31, 2000 kb/s, 10 fps, 1k tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libvpx-vp9
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   10 fps=0.0 q=5.0 size=       0KiB time=00:00:01.00 bitrate=   3.7kbits/s speed=   2x    frame=   22 fps= 22 q=5.0 size=       0KiB time=00:00:02.20 bitrate=   1.7kbits/s speed= 2.2x    frame=   35 fps= 23 q=7.0 size=       0KiB time=00:00:03.50 bitrate=   1.1kbits/s speed=2.33x    frame=   57 fps= 28 q=5.0 size=     512KiB time=00:00:05.70 bitrate= 735.8kbits/s speed=2.85x    frame=   80 fps= 32 q=5.0 size=     512KiB time=00:00:08.00 bitrate= 524.3kbits/s speed= 3.2x    frame=  102 fps= 34 q=5.0 size=     768KiB time=00:00:10.20 bitrate= 616.8kbits/s speed= 3.4x    frame=  122 fps= 35 q=5.0 size=     768KiB time=00:00:12.20 bitrate= 515.7kbits/s speed=3.48x    frame=  149 fps= 37 q=5.0 size=     768KiB time=00:00:14.90 bitrate= 422.2kbits/s speed=3.72x    frame=  179 fps= 40 q=5.0 size=    1280KiB time=00:00:17.90 bitrate= 585.8kbits/s speed=3.98x    frame=  200 fps= 40 q=5.0 size=    1280KiB time=00:00:20.00 bitrate= 524.3kbits/s speed=   4x    frame=  227 fps= 41 q=5.0 size=    1280KiB time=00:00:22.70 bitrate= 461.9kbits/s speed=4.13x    frame=  262 fps= 44 q=5.0 size=    1536KiB time=00:00:26.20 bitrate= 480.3kbits/s speed=4.37x    frame=  295 fps= 45 q=5.0 size=    1536KiB time=00:00:29.50 bitrate= 426.5kbits/s speed=4.54x    frame=  315 fps= 45 q=5.0 size=    1792KiB time=00:00:31.50 bitrate= 466.0kbits/s speed= 4.5x    frame=  344 fps= 46 q=5.0 size=    1792KiB time=00:00:34.40 bitrate= 426.7kbits/s speed=4.59x    frame=  376 fps= 47 q=5.0 size=    2048KiB time=00:00:37.60 bitrate= 446.2kbits/s speed= 4.7x    [out#0/webm @ 0x1d87a700] video:2298KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.146307%
+frame=  400 fps= 48 q=5.0 Lsize=    2301KiB time=00:00:40.00 bitrate= 471.3kbits/s speed=4.77x    
+ 70%|███████   | 7/10 [05:24<02:26, 48.73s/it]ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 08 (2026-09-20 00-30-15)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x36ee8940] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x36ee8940] profile High, level 5.0, 4:2:0, 8-bit
+[libx264 @ 0x36ee8940] 264 - core 164 r3191 4613ac3 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=16 deblock=1:1:1 analyse=0x3:0x133 me=umh subme=10 psy=1 psy_rd=0.40:0.00 mixed_ref=1 me_range=24 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=19 lookahead_threads=4 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=10 b_pyramid=2 b_adapt=2 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=10 scenecut=40 intra_refresh=0 rc_lookahead=60 rc=crf mbtree=1 crf=5.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:0.60
+Output #0, mp4, to '/export/scratch/ra26xel/bomberman/104544/Round 08 (2026-09-20 00-30-15)_video.mp4':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1000x600, q=2-31, 10 fps, 10240 tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   37 fps=0.0 q=7.0 size=     512KiB time=00:00:03.50 bitrate=1198.5kbits/s speed=   7x    frame=  187 fps=187 q=7.0 size=    1280KiB time=00:00:18.50 bitrate= 566.8kbits/s speed=18.5x    frame=  387 fps=258 q=-1.0 size=    2048KiB time=00:00:38.50 bitrate= 435.8kbits/s speed=25.7x    [out#0/mp4 @ 0x36ed8640] video:2320KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.198477%
+frame=  400 fps=262 q=-1.0 Lsize=    2325KiB time=00:00:39.80 bitrate= 478.5kbits/s speed=26.1x    
+[libx264 @ 0x36ee8940] frame I:2     Avg QP: 0.44  size:195154
+[libx264 @ 0x36ee8940] frame P:86    Avg QP: 3.14  size:  4203
+[libx264 @ 0x36ee8940] frame B:312   Avg QP: 6.45  size:  5202
+[libx264 @ 0x36ee8940] consecutive B-frames:  3.0%  5.5%  6.0% 13.0% 11.2% 15.0% 35.0%  4.0%  2.2%  5.0%  0.0%
+[libx264 @ 0x36ee8940] mb I  I16..4: 57.8%  0.1% 42.1%
+[libx264 @ 0x36ee8940] mb P  I16..4:  0.5%  0.0%  0.2%  P16..4:  1.6%  0.4%  0.5%  0.2%  0.1%    skip:96.6%
+[libx264 @ 0x36ee8940] mb B  I16..4:  0.0%  0.0%  0.3%  B16..8:  3.0%  0.4%  0.6%  direct: 0.4%  skip:95.4%  L0:60.5% L1:36.9% BI: 2.6%
+[libx264 @ 0x36ee8940] 8x8 transform intra:0.2% inter:0.8%
+[libx264 @ 0x36ee8940] direct mvs  spatial:96.8% temporal:3.2%
+[libx264 @ 0x36ee8940] coded y,uvDC,uvAC intra: 47.2% 35.4% 34.8% inter: 0.9% 1.2% 1.2%
+[libx264 @ 0x36ee8940] i16 v,h,dc,p: 95%  2%  3%  0%
+[libx264 @ 0x36ee8940] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 21%  4% 69%  0%  2%  0%  4%  0%  0%
+[libx264 @ 0x36ee8940] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 21% 20% 20%  6%  6%  6%  5%  7%  9%
+[libx264 @ 0x36ee8940] i8c dc,h,v,p: 66% 19% 11%  3%
+[libx264 @ 0x36ee8940] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x36ee8940] ref P L0: 40.9%  0.6% 22.1%  9.8%  6.4%  3.8%  3.0%  1.8%  1.7%  1.7%  2.6%  1.7%  0.9%  1.3%  0.9%  1.0%
+[libx264 @ 0x36ee8940] ref B L0: 56.3% 17.3%  8.0%  3.9%  2.4%  2.1%  1.4%  1.5%  1.5%  1.0%  1.4%  1.2%  1.0%  0.8%  0.3%
+[libx264 @ 0x36ee8940] ref B L1: 93.4%  6.6%
+[libx264 @ 0x36ee8940] kb/s:474.98
+ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 08 (2026-09-20 00-30-15)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[libvpx-vp9 @ 0x1c7b88c0] v1.11.0-30-g888bafc78
+Output #0, webm, to '/export/scratch/ra26xel/bomberman/104544/Round 08 (2026-09-20 00-30-15)_video.webm':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: vp9, yuv420p(progressive), 1000x600, q=2-31, 2000 kb/s, 10 fps, 1k tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libvpx-vp9
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   10 fps=0.0 q=5.0 size=       0KiB time=00:00:01.00 bitrate=   3.7kbits/s speed=   2x    frame=   23 fps= 23 q=5.0 size=       0KiB time=00:00:02.30 bitrate=   1.6kbits/s speed= 2.3x    frame=   40 fps= 27 q=5.0 size=       0KiB time=00:00:04.00 bitrate=   0.9kbits/s speed=2.67x    frame=   63 fps= 31 q=5.0 size=     512KiB time=00:00:06.30 bitrate= 665.8kbits/s speed=3.15x    frame=   89 fps= 36 q=5.0 size=     512KiB time=00:00:08.90 bitrate= 471.3kbits/s speed=3.56x    frame=  106 fps= 35 q=5.0 size=     768KiB time=00:00:10.60 bitrate= 593.5kbits/s speed=3.53x    frame=  132 fps= 38 q=5.0 size=     768KiB time=00:00:13.20 bitrate= 476.6kbits/s speed=3.77x    frame=  160 fps= 40 q=5.0 size=    1280KiB time=00:00:16.00 bitrate= 655.4kbits/s speed=   4x    frame=  190 fps= 42 q=5.0 size=    1280KiB time=00:00:19.00 bitrate= 551.9kbits/s speed=4.22x    frame=  209 fps= 42 q=5.0 size=    1280KiB time=00:00:20.90 bitrate= 501.7kbits/s speed=4.18x    frame=  244 fps= 44 q=5.0 size=    1280KiB time=00:00:24.40 bitrate= 429.7kbits/s speed=4.44x    frame=  272 fps= 45 q=5.0 size=    1536KiB time=00:00:27.20 bitrate= 462.6kbits/s speed=4.53x    frame=  300 fps= 46 q=5.0 size=    1536KiB time=00:00:30.00 bitrate= 419.4kbits/s speed=4.61x    frame=  323 fps= 46 q=5.0 size=    1792KiB time=00:00:32.30 bitrate= 454.5kbits/s speed=4.61x    frame=  356 fps= 47 q=5.0 size=    2048KiB time=00:00:35.60 bitrate= 471.3kbits/s speed=4.75x    frame=  376 fps= 47 q=5.0 size=    2048KiB time=00:00:37.60 bitrate= 446.2kbits/s speed= 4.7x    [out#0/webm @ 0x1c7a8680] video:2284KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.147112%
+frame=  400 fps= 49 q=5.0 Lsize=    2287KiB time=00:00:40.00 bitrate= 468.4kbits/s speed=4.89x    
+ 80%|████████  | 8/10 [06:15<01:38, 49.16s/it]ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 09 (2026-09-20 00-31-06)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x22cdc980] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x22cdc980] profile High, level 5.0, 4:2:0, 8-bit
+[libx264 @ 0x22cdc980] 264 - core 164 r3191 4613ac3 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=16 deblock=1:1:1 analyse=0x3:0x133 me=umh subme=10 psy=1 psy_rd=0.40:0.00 mixed_ref=1 me_range=24 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=19 lookahead_threads=4 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=10 b_pyramid=2 b_adapt=2 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=10 scenecut=40 intra_refresh=0 rc_lookahead=60 rc=crf mbtree=1 crf=5.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:0.60
+Output #0, mp4, to '/export/scratch/ra26xel/bomberman/104544/Round 09 (2026-09-20 00-31-06)_video.mp4':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1000x600, q=2-31, 10 fps, 10240 tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   45 fps=0.0 q=7.0 size=     512KiB time=00:00:04.30 bitrate= 975.5kbits/s speed= 8.6x    frame=  179 fps=179 q=7.0 size=    1280KiB time=00:00:17.70 bitrate= 592.4kbits/s speed=17.7x    frame=  353 fps=235 q=7.0 size=    2304KiB time=00:00:35.10 bitrate= 537.7kbits/s speed=23.4x    [out#0/mp4 @ 0x22ccc640] video:2533KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.181196%
+frame=  400 fps=252 q=-1.0 Lsize=    2537KiB time=00:00:39.80 bitrate= 522.2kbits/s speed=25.1x    
+[libx264 @ 0x22cdc980] frame I:2     Avg QP: 0.49  size:195473
+[libx264 @ 0x22cdc980] frame P:84    Avg QP: 3.90  size:  4478
+[libx264 @ 0x22cdc980] frame B:314   Avg QP: 7.15  size:  5814
+[libx264 @ 0x22cdc980] consecutive B-frames:  2.8%  1.0% 12.0% 12.0% 12.5% 19.5% 31.5%  4.0%  2.2%  2.5%  0.0%
+[libx264 @ 0x22cdc980] mb I  I16..4: 57.5%  0.1% 42.5%
+[libx264 @ 0x22cdc980] mb P  I16..4:  0.5%  0.0%  0.2%  P16..4:  1.7%  0.4%  0.5%  0.2%  0.2%    skip:96.4%
+[libx264 @ 0x22cdc980] mb B  I16..4:  0.0%  0.0%  0.3%  B16..8:  3.2%  0.4%  0.7%  direct: 0.4%  skip:95.0%  L0:60.8% L1:36.2% BI: 2.9%
+[libx264 @ 0x22cdc980] 8x8 transform intra:0.4% inter:0.8%
+[libx264 @ 0x22cdc980] direct mvs  spatial:97.5% temporal:2.5%
+[libx264 @ 0x22cdc980] coded y,uvDC,uvAC intra: 48.5% 35.4% 34.5% inter: 1.0% 1.4% 1.4%
+[libx264 @ 0x22cdc980] i16 v,h,dc,p: 95%  2%  3%  0%
+[libx264 @ 0x22cdc980] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  6%  1% 90%  1%  2%  0%  1%  0%  0%
+[libx264 @ 0x22cdc980] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 21% 19% 21%  6%  7%  6%  5%  7%  8%
+[libx264 @ 0x22cdc980] i8c dc,h,v,p: 65% 19% 12%  4%
+[libx264 @ 0x22cdc980] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x22cdc980] ref P L0: 43.7%  0.6% 22.6%  8.6%  5.8%  3.8%  2.4%  2.2%  1.5%  1.1%  1.3%  1.0%  1.8%  0.9%  1.2%  1.2%
+[libx264 @ 0x22cdc980] ref B L0: 56.3% 18.5%  7.3%  4.1%  2.5%  2.4%  1.6%  1.5%  1.2%  1.1%  0.8%  0.8%  1.1%  0.5%  0.3%
+[libx264 @ 0x22cdc980] ref B L1: 92.9%  7.1%
+[libx264 @ 0x22cdc980] kb/s:518.53
+ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 09 (2026-09-20 00-31-06)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[libvpx-vp9 @ 0x2b4fc900] v1.11.0-30-g888bafc78
+Output #0, webm, to '/export/scratch/ra26xel/bomberman/104544/Round 09 (2026-09-20 00-31-06)_video.webm':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: vp9, yuv420p(progressive), 1000x600, q=2-31, 2000 kb/s, 10 fps, 1k tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libvpx-vp9
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    9 fps=0.0 q=5.0 size=       0KiB time=00:00:00.90 bitrate=   4.1kbits/s speed= 1.8x    frame=   20 fps= 20 q=5.0 size=       0KiB time=00:00:02.00 bitrate=   1.9kbits/s speed=   2x    frame=   32 fps= 21 q=5.0 size=       0KiB time=00:00:03.20 bitrate=   1.2kbits/s speed=2.13x    frame=   50 fps= 25 q=5.0 size=       0KiB time=00:00:05.00 bitrate=   0.7kbits/s speed= 2.5x    frame=   74 fps= 30 q=5.0 size=     512KiB time=00:00:07.40 bitrate= 566.8kbits/s speed=2.96x    frame=   98 fps= 33 q=5.0 size=     512KiB time=00:00:09.80 bitrate= 428.0kbits/s speed=3.27x    frame=  112 fps= 32 q=5.0 size=     768KiB time=00:00:11.20 bitrate= 561.7kbits/s speed= 3.2x    frame=  140 fps= 35 q=5.0 size=     768KiB time=00:00:14.00 bitrate= 449.4kbits/s speed= 3.5x    frame=  167 fps= 37 q=5.0 size=    1024KiB time=00:00:16.70 bitrate= 502.3kbits/s speed=3.71x    frame=  190 fps= 38 q=5.0 size=    1024KiB time=00:00:19.00 bitrate= 441.5kbits/s speed= 3.8x    frame=  206 fps= 37 q=5.0 size=    1536KiB time=00:00:20.60 bitrate= 610.8kbits/s speed=3.74x    frame=  237 fps= 39 q=5.0 size=    1536KiB time=00:00:23.70 bitrate= 530.9kbits/s speed=3.95x    frame=  267 fps= 41 q=5.0 size=    1792KiB time=00:00:26.70 bitrate= 549.8kbits/s speed=4.11x    frame=  295 fps= 42 q=5.0 size=    1792KiB time=00:00:29.50 bitrate= 497.6kbits/s speed=4.21x    frame=  315 fps= 42 q=5.0 size=    1792KiB time=00:00:31.50 bitrate= 466.0kbits/s speed= 4.2x    frame=  348 fps= 43 q=5.0 size=    1792KiB time=00:00:34.80 bitrate= 421.8kbits/s speed=4.35x    frame=  376 fps= 44 q=5.0 size=    2048KiB time=00:00:37.60 bitrate= 446.2kbits/s speed=4.42x    [out#0/webm @ 0x2b4eb700] video:2458KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.136805%
+frame=  400 fps= 45 q=5.0 Lsize=    2462KiB time=00:00:40.00 bitrate= 504.2kbits/s speed=4.52x    
+ 90%|█████████ | 9/10 [07:05<00:49, 49.69s/it]ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 10 (2026-09-20 00-31-56)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x295ed940] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2 AVX512
+[libx264 @ 0x295ed940] profile High, level 5.0, 4:2:0, 8-bit
+[libx264 @ 0x295ed940] 264 - core 164 r3191 4613ac3 - H.264/MPEG-4 AVC codec - Copyleft 2003-2024 - http://www.videolan.org/x264.html - options: cabac=1 ref=16 deblock=1:1:1 analyse=0x3:0x133 me=umh subme=10 psy=1 psy_rd=0.40:0.00 mixed_ref=1 me_range=24 chroma_me=1 trellis=2 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=19 lookahead_threads=4 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=10 b_pyramid=2 b_adapt=2 b_bias=0 direct=3 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=10 scenecut=40 intra_refresh=0 rc_lookahead=60 rc=crf mbtree=1 crf=5.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:0.60
+Output #0, mp4, to '/export/scratch/ra26xel/bomberman/104544/Round 10 (2026-09-20 00-31-56)_video.mp4':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(progressive), 1000x600, q=2-31, 10 fps, 10240 tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   36 fps=0.0 q=7.0 size=     256KiB time=00:00:03.40 bitrate= 616.9kbits/s speed= 6.8x    frame=  191 fps=191 q=7.0 size=    1280KiB time=00:00:18.90 bitrate= 554.8kbits/s speed=18.9x    frame=  378 fps=252 q=7.0 size=    2048KiB time=00:00:37.60 bitrate= 446.2kbits/s speed=25.1x    [out#0/mp4 @ 0x295dd640] video:2314KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.198296%
+frame=  400 fps=258 q=-1.0 Lsize=    2319KiB time=00:00:39.80 bitrate= 477.3kbits/s speed=25.7x    
+[libx264 @ 0x295ed940] frame I:2     Avg QP: 0.47  size:191188
+[libx264 @ 0x295ed940] frame P:87    Avg QP: 3.54  size:  4325
+[libx264 @ 0x295ed940] frame B:311   Avg QP: 6.46  size:  5178
+[libx264 @ 0x295ed940] consecutive B-frames:  3.0%  5.0%  8.2%  9.0% 15.0% 25.5% 22.8%  2.0%  4.5%  5.0%  0.0%
+[libx264 @ 0x295ed940] mb I  I16..4: 57.9%  0.0% 42.0%
+[libx264 @ 0x295ed940] mb P  I16..4:  0.4%  0.0%  0.2%  P16..4:  1.5%  0.3%  0.5%  0.2%  0.2%    skip:96.7%
+[libx264 @ 0x295ed940] mb B  I16..4:  0.0%  0.0%  0.3%  B16..8:  2.6%  0.4%  0.6%  direct: 0.4%  skip:95.7%  L0:60.4% L1:36.5% BI: 3.1%
+[libx264 @ 0x295ed940] 8x8 transform intra:0.2% inter:0.7%
+[libx264 @ 0x295ed940] direct mvs  spatial:96.5% temporal:3.5%
+[libx264 @ 0x295ed940] coded y,uvDC,uvAC intra: 47.6% 35.1% 34.5% inter: 0.9% 1.2% 1.2%
+[libx264 @ 0x295ed940] i16 v,h,dc,p: 94%  2%  3%  0%
+[libx264 @ 0x295ed940] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  9%  1% 85%  0%  0%  0%  3%  1%  0%
+[libx264 @ 0x295ed940] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 22% 20% 20%  6%  6%  6%  5%  6%  8%
+[libx264 @ 0x295ed940] i8c dc,h,v,p: 65% 20% 12%  3%
+[libx264 @ 0x295ed940] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x295ed940] ref P L0: 40.2%  0.5% 23.0%  8.9%  6.1%  3.9%  2.5%  3.2%  2.6%  1.7%  1.8%  1.3%  1.5%  0.9%  1.3%  0.8%
+[libx264 @ 0x295ed940] ref B L0: 57.5% 15.0%  7.1%  4.3%  2.8%  2.7%  2.2%  1.6%  1.8%  1.1%  1.0%  1.1%  1.1%  0.6%  0.2%
+[libx264 @ 0x295ed940] ref B L1: 93.3%  6.7%
+[libx264 @ 0x295ed940] kb/s:473.80
+ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+Input #0, image2, from '/export/scratch/ra26xel/bomberman/104544/Round 10 (2026-09-20 00-31-56)_*.png':
+  Duration: 00:00:40.00, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 1000x600, 10 fps, 10 tbr, 10 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> vp9 (libvpx-vp9))
+Press [q] to stop, [?] for help
+[libvpx-vp9 @ 0x21f248c0] v1.11.0-30-g888bafc78
+Output #0, webm, to '/export/scratch/ra26xel/bomberman/104544/Round 10 (2026-09-20 00-31-56)_video.webm':
+  Metadata:
+    encoder         : Lavf61.1.100
+  Stream #0:0: Video: vp9, yuv420p(progressive), 1000x600, q=2-31, 2000 kb/s, 10 fps, 1k tbn
+      Metadata:
+        encoder         : Lavc61.3.100 libvpx-vp9
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=   10 fps=0.0 q=5.0 size=       0KiB time=00:00:01.00 bitrate=   3.7kbits/s speed=   2x    frame=   21 fps= 21 q=1.0 size=       0KiB time=00:00:02.10 bitrate=   1.8kbits/s speed= 2.1x    frame=   37 fps= 25 q=5.0 size=       0KiB time=00:00:03.70 bitrate=   1.0kbits/s speed=2.47x    frame=   59 fps= 29 q=5.0 size=     512KiB time=00:00:05.90 bitrate= 710.9kbits/s speed=2.95x    frame=   82 fps= 33 q=5.0 size=     512KiB time=00:00:08.20 bitrate= 511.5kbits/s speed=3.28x    frame=  100 fps= 33 q=5.0 size=     512KiB time=00:00:10.00 bitrate= 419.4kbits/s speed=3.33x    frame=  123 fps= 35 q=5.0 size=     768KiB time=00:00:12.30 bitrate= 511.5kbits/s speed=3.51x    frame=  150 fps= 37 q=5.0 size=     768KiB time=00:00:15.00 bitrate= 419.4kbits/s speed=3.75x    frame=  178 fps= 40 q=5.0 size=    1024KiB time=00:00:17.80 bitrate= 471.3kbits/s speed=3.95x    frame=  200 fps= 40 q=5.0 size=    1024KiB time=00:00:20.00 bitrate= 419.4kbits/s speed=   4x    frame=  233 fps= 42 q=5.0 size=    1280KiB time=00:00:23.30 bitrate= 450.0kbits/s speed=4.24x    frame=  266 fps= 44 q=5.0 size=    1536KiB time=00:00:26.60 bitrate= 473.0kbits/s speed=4.43x    frame=  296 fps= 46 q=5.0 size=    1536KiB time=00:00:29.60 bitrate= 425.1kbits/s speed=4.55x    frame=  315 fps= 45 q=5.0 size=    1792KiB time=00:00:31.50 bitrate= 466.0kbits/s speed= 4.5x    frame=  346 fps= 46 q=5.0 size=    1792KiB time=00:00:34.60 bitrate= 424.3kbits/s speed=4.61x    frame=  376 fps= 47 q=5.0 size=    2048KiB time=00:00:37.60 bitrate= 446.2kbits/s speed= 4.7x    [out#0/webm @ 0x21f14680] video:2268KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.148001%
+frame=  400 fps= 47 q=5.0 Lsize=    2271KiB time=00:00:40.00 bitrate= 465.1kbits/s speed=4.75x    
+100%|██████████| 10/10 [07:56<00:00, 49.94s/it]100%|██████████| 10/10 [07:56<00:00, 47.64s/it]
